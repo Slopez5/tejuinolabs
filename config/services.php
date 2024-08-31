@@ -34,5 +34,12 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'whatsapp' => [
+        'webhook_token' => env('WHATSAPP_WEBHOOK_TOKEN'),
+        'bearer_token' => env('WHATSAPP_BEARER_TOKEN'),
+        'base_url' => env('WHATSAPP_BASE_URL'),
+        'version' => env('WHATSAPP_VERSION'),
+        'phone_id' => env('WHATSAPP_PHONE_ID'),
+    ]
 
 ];
